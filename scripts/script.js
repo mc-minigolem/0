@@ -11,7 +11,7 @@ function on_button(type){
 		} else {
 			document.getElementById(type + "_error").innerHTML = "";
 			
-			if (type == 'vip')
+			if (type == 'vip' || type == 'donat')
 				link = link_vip;
 			else if (type == 'premium')
 				link = link_premium;
